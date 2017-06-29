@@ -1,4 +1,4 @@
-#Installing to bluemix container
+# Installing to bluemix container
 
 1. After signing in to bluemix, head to the catalog section. Pick containers from the drawer menu in the Apps section.
 
@@ -25,7 +25,7 @@ Alternative
 
 6. Use the following command to build this repo to a bluemix container
 
-	- ##bx ic build -t namespace/kafka-docker##
+	- ## bx ic build -t namespace/kafka-docker ##
 	
 7. After the 27 steps of building and pushing to the container, open bluemix catalog. Go to the containers section in the app and click on your uploaded image.
 
@@ -38,7 +38,7 @@ Test your installation using the python files attached. Change the ip's before y
 Done!!!
 
 
-#Credit goes to https://github.com/mohamnag/docker-kafka-zookeeper
+# Credit goes to https://github.com/mohamnag/docker-kafka-zookeeper
 # Kafka & Zookeeper in one image
 This image is **NOT** for production use but rather for testing purposes.
 
