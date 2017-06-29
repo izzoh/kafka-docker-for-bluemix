@@ -17,7 +17,7 @@ ENV ZK_HOME /opt/zookeeper-${ZOOKEEPER_VERSION}
 
 # Kafka runtime config, may be overridden:
 ENV KAFKA_ADVERTISED_PORT "9092"
-ENV KAFKA_ADVERTISED_HOST_NAME "134.168.38.237"
+ENV KAFKA_ADVERTISED_HOST_NAME "{ip address of the container you want to deploy to}"
 ENV KAFKA_HEAP_OPTS ""
 ENV KAFKA_LOG_DIRS "/kafka/kafka-logs-$HOSTNAME"
 ENV KAFKA_CREATE_TOPICS "first:1:1,Topic2:1:1:compact"
